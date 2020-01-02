@@ -18,6 +18,7 @@ It needs the following:
 - Time of latest update.
 - Button to increment the temperature by half a degree at the time.
 - Button to decrement the temperatture by half a degree at the time.
+- The increment / decrement buttons should not disable when they are clicked. Your user should be able to press the button multiple times to increate / decrease the the temp a couple of degrees. Be aware here about updating the data too many times.
 
 We want you to fetch the data at least every 2 seconds to update the current temperature and the time of last update.
 Be aware of race conditions. The patch api call takes about 1 second to update the data.  
